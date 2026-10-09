@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Super Goal 3 – Exam Review | Teacher Jaber</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Tajawal:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F3F1FF; --card: #FFFFFF; --ink: #1E1748; --muted: #625C8C; --line: #E1DCFA;
+    --u1: #6C4DF6; --u2: #F2552C;
+    --gram: #6C4DF6; --voc: #11A37F; --read: #2F7BE5; --write: #E58A0B;
+    --f: "Nunito", "Segoe UI", Tahoma, Arial, sans-serif; --ar: "Tajawal", "Segoe UI", Tahoma, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #120E2B; --card: #1E1842; --ink: #F2F0FF; --muted: #ADA6D8; --line: #322A63;
+            --u1: #9C85FF; --u2: #FF7D5C; --gram: #9C85FF; --voc: #3DD6AE; --read: #6AA8FF; --write: #FFB347; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f);
+         padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px); }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 28px 16px 48px; }
+  header { text-align: center; margin-bottom: 26px; }
+  .tag { display: inline-block; background: var(--card); border: 2px solid var(--line); border-radius: 999px;
+         padding: .35em 1em; font-weight: 800; font-size: .85rem; color: var(--muted); letter-spacing: .04em; }
+  h1 { font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 900; margin: 12px 0 4px; line-height: 1.05; }
+  h1 span { color: var(--u1); }
+  .ar { font-family: var(--ar); direction: rtl; }
+  .sub { color: var(--muted); font-size: 1.05rem; margin: 6px 0 0; }
+  .sub.ar { font-size: 1.15rem; font-weight: 700; }
+  .units { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  .unit { background: var(--card); border: 2px solid var(--line); border-radius: 22px; overflow: hidden; }
+  .uhead { padding: 16px 18px; color: #fff; display: flex; align-items: center; gap: 14px; }
+  .u1 .uhead { background: var(--u1); } .u2 .uhead { background: var(--u2); }
+  .num { font-size: 2.6rem; font-weight: 900; line-height: 1; background: rgba(255,255,255,.2); border-radius: 14px; padding: 4px 14px; }
+  .uhead h2 { margin: 0; font-size: 1.5rem; font-weight: 900; line-height: 1.1; }
+  .uhead p { margin: 2px 0 0; font-family: var(--ar); font-weight: 700; opacity: .9; }
+  .list { list-style: none; margin: 0; padding: 12px; display: grid; gap: 10px; }
+  .lesson { display: grid; grid-template-columns: 46px minmax(0, 1fr) auto; gap: 12px; align-items: center;
+            text-decoration: none; color: var(--ink); background: var(--bg); border: 2px solid transparent;
+            border-radius: 14px; padding: 10px 12px; transition: transform .15s, border-color .15s; }
+  .lesson:hover, .lesson:focus-visible { transform: translateY(-2px); border-color: var(--c); outline: none; }
+  .ico { width: 46px; height: 46px; border-radius: 12px; background: var(--c); color: #fff; display: grid; place-items: center; font-size: 1.35rem; }
+  .lesson b { display: block; font-size: 1.08rem; font-weight: 800; }
+  .lesson small { display: block; color: var(--muted); font-weight: 600; font-size: .85rem; }
+  .lesson .go { font-weight: 900; color: var(--c); font-size: 1.3rem; }
+  .g { --c: var(--gram); } .v { --c: var(--voc); } .r { --c: var(--read); } .w { --c: var(--write); }
+  footer { text-align: center; color: var(--muted); margin-top: 28px; font-weight: 700; }
+  footer .ar { display: block; margin-top: 2px; }
+  @media (max-width: 720px) { .units { grid-template-columns: minmax(0, 1fr); } }
+  @media (prefers-reduced-motion: reduce) { .lesson { transition: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">FREE EXAM REVIEW · مراجعة مجانية للاختبار</span>
+    <h1>Super Goal 3 <span>Review</span></h1>
+    <p class="sub">Units 1 &amp; 2 · Grammar · Vocabulary · Reading · Writing</p>
+    <p class="sub ar">راجع دروس الوحدتين الأولى والثانية استعدادًا للاختبار</p>
+  </header>
+
+  <div class="units">
+    <section class="unit u1">
+      <div class="uhead"><span class="num">1</span><div><h2>Lifestyles</h2><p>أنماط الحياة</p></div></div>
+      <ul class="list">
+        <li><a class="lesson g" href="u%201%20grammar%201/"><span class="ico">✏️</span><span><b>Grammar 1</b><small>Simple Present &amp; Adverbs of Frequency</small></span><span class="go">›</span></a></li>
+        <li><a class="lesson g" href="u%201%20grammar%202/"><span class="ico">✏️</span><span><b>Grammar 2</b><small>How often · All / Both · Word order</small></span><span class="go">›</span></a></li>
+        <li><a class="lesson v" href="U1_Vocabulary/"><span class="ico">🔤</span><span><b>Vocabulary</b><small>Lifestyles words</small></span><span class="go">›</span></a></li>
+        <li><a class="lesson r" href="U1_Reading/"><span class="ico">📖</span><span><b>Reading</b><small>Lifestyles</small></span><span class="go">›</span></a></li>
+        <li><a class="lesson w" href="U1_Writing_Habits/"><span class="ico">📝</span><span><b>Writing</b><small>Habits Among Young People</small></span><span class="go">›</span></a></li>
+      </ul>
+    </section>
+
+    <section class="unit u2">
+      <div class="uhead"><span class="num">2</span><div><h2>Life Stories</h2><p>قصص الحياة</p></div></div>
+      <ul class="list">
+        <li><a class="lesson g" href="u%202%20grammar%201/"><span class="ico">✏️</span><span><b>Grammar 1</b><small>Simple Past &amp; Time Expressions</small></span><span class="go">›</span></a></li>
+        <li><a class="lesson g" href="u%202%20grammar%202/"><span class="ico">✏️</span><span><b>Grammar 2</b><small>Used to &amp; Passive</small></span><span class="go">›</span></a></li>
+        <li><a class="lesson v" href="U%202%20Vocabulary_LifeStories/"><span class="ico">🔤</span><span><b>Vocabulary</b><small>Life Stories words</small></span><span class="go">›</span></a></li>
+        <li><a class="lesson r" href="U%202%20Reading_LifeStories/"><span class="ico">📖</span><span><b>Reading</b><small>Life Stories</small></span><span class="go">›</span></a></li>
+        <li><a class="lesson w" href="U%202%20Writing_MyLifeStory/"><span class="ico">📝</span><span><b>Writing</b><small>My Life Story</small></span><span class="go">›</span></a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>Teacher Jaber Al-Janbi · Good luck in your exam! <span class="ar">بالتوفيق في اختبارك</span></footer>
+</div>
+</body>
+</html>
